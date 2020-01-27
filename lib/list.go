@@ -16,10 +16,10 @@ func List() (recipes []Recipe, err error) {
 
 			r, err := Get(path)
 			if err != nil {
-				return err
+				return nil
 			}
 
-			recipes = append(recipes, r)
+			recipes = append(recipes, *r)
 		}
 
 		return nil
