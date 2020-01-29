@@ -1,17 +1,16 @@
 package lib
 
 import (
-	"errors"
 	"fmt"
 	"io/ioutil"
 	"strings"
 
+	"github.com/jnathanh/recipe/lib/bfparser"
 	. "github.com/jnathanh/recipe/lib/model"
 	"gopkg.in/russross/blackfriday.v2"
 )
 
 func Get(path string) (r *Recipe, err error) {
-	r = &Recipe{Path: path}
 
 	// get file bytes
 	bytes, err := ioutil.ReadFile(path)
@@ -27,7 +26,9 @@ func Get(path string) (r *Recipe, err error) {
 	// parse to recipe object
 	parser := blackfriday.New()
 	md := parser.Parse(bytes)
-	parsed, err := newRecipeFromBlackFridayAST(*r, md)
+	parsed, err := bfparser.Parse(md)
+
+	parsed.Path = path
 
 	return &parsed, err
 }
@@ -46,33 +47,3 @@ func isRecipe(bytes []byte) bool {
 	return false
 }
 
-func newRecipeFromBlackFridayAST(r Recipe, node *blackfriday.Node) (Recipe, error) {
-	var ok bool
-
-	r.Name, ok = getName(node)
-	if !ok {
-		return r, errors.New("could not parse the recipe name")
-	}
-
-	return r, nil
-}
-
-func getName(recipeDoc *blackfriday.Node) (name string, ok bool) {
-	if recipeDoc == nil {
-		return
-	}
-
-	// get first heading
-	firstHeading := recipeDoc.FirstChild
-	if firstHeading == nil && firstHeading.Type != blackfriday.Heading {
-		return
-	}
-
-	// get heading text
-	text := firstHeading.FirstChild
-	if text == nil {
-		return
-	}
-
-	return string(text.Literal), true
-}
