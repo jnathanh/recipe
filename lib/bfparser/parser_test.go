@@ -2,6 +2,7 @@ package bfparser_test
 
 import (
 	"testing"
+	"time"
 
 	"github.com/jnathanh/recipe/lib/bfparser"
 	"github.com/stretchr/testify/assert"
@@ -57,16 +58,17 @@ func TestParse(t *testing.T) {
 	ast.Walk(w.Walk)
 	r := w.Recipe()
 
-	// name
 	is := assert.New(t)
-	is.Equal("Falafel", r.Name)
 
-	// yield
-	if r.Yield == nil {
-		t.Fatal("Yield is nil")
+	is.Equal("Falafel", r.Name)
+	if is.NotNil(r.Yield) {
+		is.Equal("12 falafel balls", r.Yield.Name) // TODO: need some way to distinguish form in the model
 	}
-	is.Equal("falafel", r.Yield.Name) // TODO: need some way to distinguish form in the model
-	is.Equal(float64(12), r.Yield.Amount)
+	is.NotNil(r.Images.Featured)
+	is.Equal(30 * time.Minute, r.CookTime)
+	is.Equal(20 * time.Minute, r.PreparationTime)
+	is.Equal(50 * time.Minute, r.TotalTime)
+	is.Equal("https://cookieandkate.com/crispy-falafel-recipe/#tasty-recipes-22901", r.Source.String())
 
 
 }

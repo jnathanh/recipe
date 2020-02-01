@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f72b23f-3769-4cc8-bacb-08e7eda33622" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/bfparser/parser.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/bfparser/parser_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/get.go" beforeDir="false" afterPath="$PROJECT_DIR$/lib/get.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bfparser/parser.go" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bfparser/parser.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bfparser/parser_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bfparser/parser_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/model/recipe.go" beforeDir="false" afterPath="$PROJECT_DIR$/lib/model/recipe.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,15 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/options.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cmd/ls.go">
           <provider selected="true" editor-type-id="text-editor">
@@ -55,16 +45,25 @@
         <entry file="file://$PROJECT_DIR$/lib/get.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="297">
-              <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/bfparser/parser.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="128" selection-start-line="128" selection-end-line="128" />
+            <state relative-caret-position="359">
+              <caret line="122" selection-start-line="122" selection-end-line="122" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/Cellar/go@1.12/1.12.13/libexec/src/runtime/panic.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="689" selection-start-line="689" selection-end-line="689" />
             </state>
           </provider>
         </entry>
@@ -78,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/bfparser/parser_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="69" selection-start-line="63" selection-end-line="69" />
+            <state relative-caret-position="355">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
             </state>
           </provider>
         </entry>
@@ -90,8 +89,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/model/recipe.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+            <state relative-caret-position="443">
+              <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+              <folding>
+                <element signature="e#15#44#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -144,10 +146,10 @@
         <option value="$PROJECT_DIR$/lib/options.go" />
         <option value="$PROJECT_DIR$/lib/black_friday_ast_parser/parser.go" />
         <option value="$PROJECT_DIR$/lib/bf_parser/parser.go" />
-        <option value="$PROJECT_DIR$/lib/model/recipe.go" />
         <option value="$PROJECT_DIR$/lib/get.go" />
-        <option value="$PROJECT_DIR$/lib/bfparser/parser_test.go" />
+        <option value="$PROJECT_DIR$/lib/model/recipe.go" />
         <option value="$PROJECT_DIR$/lib/bfparser/parser.go" />
+        <option value="$PROJECT_DIR$/lib/bfparser/parser_test.go" />
       </list>
     </option>
   </component>
@@ -291,44 +293,44 @@
       <workItem from="1579998992412" duration="211000" />
       <workItem from="1580000069867" duration="12121000" />
       <workItem from="1580180705387" duration="6195000" />
-      <workItem from="1580269935284" duration="8232000" />
+      <workItem from="1580269935284" duration="18153000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestParse_in_github_com_jnathanh_recipe_lib_bfparser - 2020.01.28 at 22h 29m 34s.xml">
+    <history-entry file="TestParse_in_github_com_jnathanh_recipe_lib_bfparser - 2020.02.01 at 13h 14m 18s.xml">
       <configuration name="TestParse in github.com/jnathanh/recipe/lib/bfparser" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestParse_in_github_com_jnathanh_recipe_lib_bfparser - 2020.01.28 at 22h 30m 11s.xml">
+    <history-entry file="TestParse_in_github_com_jnathanh_recipe_lib_bfparser - 2020.02.01 at 13h 43m 29s.xml">
       <configuration name="TestParse in github.com/jnathanh/recipe/lib/bfparser" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestParse_in_github_com_jnathanh_recipe_lib_bfparser - 2020.01.28 at 22h 31m 24s.xml">
+    <history-entry file="TestParse_in_github_com_jnathanh_recipe_lib_bfparser - 2020.02.01 at 13h 50m 54s.xml">
       <configuration name="TestParse in github.com/jnathanh/recipe/lib/bfparser" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestParse_in_github_com_jnathanh_recipe_lib_bfparser - 2020.01.28 at 22h 31m 25s.xml">
+    <history-entry file="TestParse_in_github_com_jnathanh_recipe_lib_bfparser - 2020.02.01 at 13h 54m 53s.xml">
       <configuration name="TestParse in github.com/jnathanh/recipe/lib/bfparser" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestParse_in_github_com_jnathanh_recipe_lib_bfparser - 2020.01.28 at 22h 44m 44s.xml">
+    <history-entry file="TestParse_in_github_com_jnathanh_recipe_lib_bfparser - 2020.02.01 at 14h 02m 27s.xml">
       <configuration name="TestParse in github.com/jnathanh/recipe/lib/bfparser" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestParse_in_github_com_jnathanh_recipe_lib_bfparser - 2020.01.28 at 22h 45m 19s.xml">
+    <history-entry file="TestParse_in_github_com_jnathanh_recipe_lib_bfparser - 2020.02.01 at 14h 03m 19s.xml">
       <configuration name="TestParse in github.com/jnathanh/recipe/lib/bfparser" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestParse_in_github_com_jnathanh_recipe_lib_bfparser - 2020.01.28 at 22h 49m 12s.xml">
+    <history-entry file="TestParse_in_github_com_jnathanh_recipe_lib_bfparser - 2020.02.01 at 14h 03m 48s.xml">
       <configuration name="TestParse in github.com/jnathanh/recipe/lib/bfparser" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestParse_in_github_com_jnathanh_recipe_lib_bfparser - 2020.01.28 at 22h 57m 07s.xml">
+    <history-entry file="TestParse_in_github_com_jnathanh_recipe_lib_bfparser - 2020.02.01 at 14h 15m 05s.xml">
       <configuration name="TestParse in github.com/jnathanh/recipe/lib/bfparser" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestParse_in_github_com_jnathanh_recipe_lib_bfparser - 2020.01.28 at 22h 57m 19s.xml">
+    <history-entry file="TestParse_in_github_com_jnathanh_recipe_lib_bfparser - 2020.02.01 at 14h 15m 19s.xml">
       <configuration name="TestParse in github.com/jnathanh/recipe/lib/bfparser" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestParse_in_github_com_jnathanh_recipe_lib_bfparser - 2020.01.28 at 22h 59m 43s.xml">
+    <history-entry file="TestParse_in_github_com_jnathanh_recipe_lib_bfparser - 2020.02.01 at 14h 16m 58s.xml">
       <configuration name="TestParse in github.com/jnathanh/recipe/lib/bfparser" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26759000" />
+    <option name="totallyTimeSpent" value="36680000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -343,8 +345,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26938775" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.46938777" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26938775" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.46938777" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -403,18 +405,35 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/lib/bfparser/parser.go</url>
+          <line>152</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/lib/bfparser/parser.go</url>
+          <line>208</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/lib/bfparser/parser.go</url>
+          <line>203</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file:///usr/local/Cellar/go/1.13.4/libexec/src/os/env.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
           <caret line="100" column="5" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go@1.12/1.12.13/libexec/src/runtime/panic.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="689" selection-start-line="689" selection-end-line="689" />
         </state>
       </provider>
     </entry>
@@ -481,17 +500,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/model/recipe.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/get.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
-          <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -502,17 +514,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/bfparser/parser_test.go">
+    <entry file="file:///usr/local/Cellar/go@1.12/1.12.13/libexec/src/runtime/panic.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="69" selection-start-line="63" selection-end-line="69" />
+        <state relative-caret-position="178">
+          <caret line="689" selection-start-line="689" selection-end-line="689" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/model/recipe.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+          <folding>
+            <element signature="e#15#44#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/bfparser/parser.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="128" selection-start-line="128" selection-end-line="128" />
+        <state relative-caret-position="359">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/bfparser/parser_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
         </state>
       </provider>
     </entry>
