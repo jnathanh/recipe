@@ -70,5 +70,5 @@ func TestParse(t *testing.T) {
 	is.Equal(50 * time.Minute, r.TotalTime)
 	is.Equal("https://cookieandkate.com/crispy-falafel-recipe/#tasty-recipes-22901", r.Source.String())
 
-
+	for r.Ingredients
 }

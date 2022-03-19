@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8f72b23f-3769-4cc8-bacb-08e7eda33622" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/bfparser/parser.go" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bfparser/parser.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/bfparser/parser_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bfparser/parser_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/model/recipe.go" beforeDir="false" afterPath="$PROJECT_DIR$/lib/model/recipe.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,8 +78,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/bfparser/parser_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="799">
+              <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -293,14 +291,11 @@
       <workItem from="1579998992412" duration="211000" />
       <workItem from="1580000069867" duration="12121000" />
       <workItem from="1580180705387" duration="6195000" />
-      <workItem from="1580269935284" duration="18153000" />
+      <workItem from="1580269935284" duration="18745000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestParse_in_github_com_jnathanh_recipe_lib_bfparser - 2020.02.01 at 13h 14m 18s.xml">
-      <configuration name="TestParse in github.com/jnathanh/recipe/lib/bfparser" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestParse_in_github_com_jnathanh_recipe_lib_bfparser - 2020.02.01 at 13h 43m 29s.xml">
       <configuration name="TestParse in github.com/jnathanh/recipe/lib/bfparser" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -328,9 +323,12 @@
     <history-entry file="TestParse_in_github_com_jnathanh_recipe_lib_bfparser - 2020.02.01 at 14h 16m 58s.xml">
       <configuration name="TestParse in github.com/jnathanh/recipe/lib/bfparser" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="TestParse_in_github_com_jnathanh_recipe_lib_bfparser - 2020.02.07 at 20h 16m 14s.xml">
+      <configuration name="TestParse in github.com/jnathanh/recipe/lib/bfparser" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36680000" />
+    <option name="totallyTimeSpent" value="37272000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -345,7 +343,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26938775" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31938776" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.46938777" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -540,8 +538,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/bfparser/parser_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="799">
+          <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
         </state>
       </provider>
     </entry>
